@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cookbook (Menu)</title>
+        
+        <style>
+            
+            /*Background*/
+            body {
+                background-image: url("https://www.kasandbox.org/programming-images/food/fruits.png");
+            }
+            
+            /*Menu Heading*/
+            #menu-heading {
+                font-family: "apple-chancery", cursive;
+                color: lightgray;
+                opacity: 0.75;
+            }
+            
+            /*Link to homepage*/
+            
+            #homepage-button {
+                position: fixed;
+                color: white;
+                bottom: -15px;
+            }
+            
+            /*"Chinese Foods" link decoration(s)*/
+            #menu-chinese-foods {
+                color: rgb(237, 76, 106);
+                z-index: 9;
+                position: absolute;
+                top: 94px;
+                left: 15px;
+            }
+            
+            /*Background of "Chinese Foods" link*/
+            #menu-chinese-food-background {
+                height: 28px;
+                width: 96%;
+                position: absolute;
+                z-index: 0;
+                top: 89px;
+                
+            }
+            
+            /*"Japanese Foods" link decoration(s)*/
+            #menu-japanese-foods {
+                color: rgb(232, 112, 14);
+                position: absolute;
+                top: 127px;
+                left: 15px;
+                z-index: 9;
+            }
+            
+            /*Background of "Japanese Foods" link*/
+            #menu-japanese-food-background {
+                height: 28px;
+                width: 96%;
+                position: absolute;
+                z-index: 0;
+                top: 125px;
+            }
+            
+            #menu-american-foods {
+                top: 163px;
+                left: 15px;
+                position: absolute;
+                z-index: 9;
+                color: white;
+            }
+            
+            #menu-american-foods-background {
+                height: 28px;
+                width: 96%;
+                position: absolute;
+                top: 160px;
+                z-index: 0;
+            }
+            
+            #menu-french-foods {
+                top: 197px;
+                left: 15px;
+                position: absolute;
+                z-index: 9;
+                color: rgb(150, 84, 204);
+            }
+            
+            #menu-french-foods-background {
+                height: 28px;
+                width: 96%;
+                position: absolute;
+                top: 194px;
+                z-index: 0;
+            }
+            
+            #menu-snacks {
+                z-index: 9;
+                color: lightblue;
+                position: absolute;
+                top: 232px;
+                left: 15px;
+            }
+            
+            #menu-snacks-background {
+                height: 28px;
+                width: 96%;
+                top: 229px;
+                z-index: 0;
+                position: absolute;
+                left: 8px;
+            }
+            
+            /*Color of link*/
+            a:hover, a:visited {
+                color: white;
+            }
+            a:link {
+                color: white;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!--Menu Heading-->
+        <h1 id="menu-heading">Cookbook: Menu</h1>
+        
+        <!--Background of "Menu" page-->
+        <h6 id="homepage-button"><a href="https://www.khanacademy.org/computer-programming/cookbook/5486052269522944">Hompage</a></h6>
+        
+        <!--Chinese Foods link-->
+        <a href="https://www.khanacademy.org/computer-programming/cookbook-chinese-foods/5321959369768960" id="menu-chinese-foods">Chinese Foods</a>
+        
+        <!--Japanese Foods link-->
+        <a href="https://www.khanacademy.org/computer-programming/cookbook-japanese-foods/5132691636649984" id="menu-japanese-foods">Japanese Foods</a>
+        
+        <!--American Foods link-->
+        <a href="https://www.khanacademy.org/computer-programming/cookbook-american-foods/4747613425270784"id="menu-american-foods">American Foods</a>
+      
+        <!--French Foods link-->
+        <a href="https://www.khanacademy.org/computer-programming/cookbook-french-foods/5869855127273472"id="menu-french-foods">French Foods</a>
+        
+        <!--Snacks link-->
+        <a href="https://www.khanacademy.org/computer-programming/cookbook-snacks/5485519945236480"id="menu-snacks">Snacks</a>
+        
+    </body>
+</html>
